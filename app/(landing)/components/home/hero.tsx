@@ -24,7 +24,7 @@ const HeroSection = () => {
             Limitless motion.
           </p>
           <div className="flex gap-5 mt-14">
-            <Button>
+            <Button size="normal">
               Explore More <FiFastForward />
             </Button>
             <Button variant="ghost">

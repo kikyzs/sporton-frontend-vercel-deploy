@@ -4,7 +4,7 @@ type TButtonProps = {
     children: React.ReactNode;
     className?: string;
     variant?: "primary" | "dark" | "ghost";
-    size: "normal" | "small";
+    size?: "normal" | "small";
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 const Button = ({children,className, variant = "primary", size = "normal", ...props}: TButtonProps) => {
