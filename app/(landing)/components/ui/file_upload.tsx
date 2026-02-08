@@ -18,7 +18,7 @@ const FileUpload = ({ onFileSelect }: TFileUploadProps) => {
     onFileSelect?.(selectedFile);
   };
 
-  const removeFile = (e: Ract.MouseEvent<HTMLButtonElement>) => {
+  const removeFile = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.stopPropagation();
     setFile(null);
     onFileSelect?.(null);
